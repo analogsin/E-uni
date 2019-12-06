@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Orbitron", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Latha",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+html, body {
+  height: 100%;
+}
+.nav-link{
+  font-family: orbitron;
+  font-size: 24px;
+  color: #4E09AE;
+}
+h1{
+  font-family: orbitron;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ 
+}
+a{
+  font-family: Latha;
+  font-size: 20px;
+  color: black;
+}
+h5{
+  font-family: orbitron;
+  color: #4E09AE;
+  font-size: 24px;
+}
+p{
+  padding-top: 10px;
+  font-family: Latha;
+  font-size: 18px;
+}
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.row{
+  padding-top: 20px;
+}
+.aler{
+  background-color: #870676;
+}
+.btn{
+  background-color: #870676;
+  margin: auto;
+  color: white;
+  margin-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+.hero{
+  background-image: url("res/crayons.jpg");
+  height: 450px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.mid-hero{
+  background-image: url("res/graduate.jpg");
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #514EF1;
+}
+
+}
+.centerized{
+	justify-content: center;
+	text-align: center;
+	align-self: center;
+}
+.padup{
+	padding-top: 20px;
+	margin-top: 20px;
+}
+.border{
+	border-color: aqua;
+	border-style: solid;
+	border-radius: 20px;
+	box-shadow: 10px;
+	border-width: 15px;
+
+}
+.card:hover{
+	animation: ease-in-out;
+
+}
+.container{
+	padding-top: 20px;
+}
+.fr{
+	float: right;
+	justify-content: right;
+}
+.tinytext{
+	font-size: 12px;
+}
+.wrapper {
+  min-height: 100%;
+
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,.push {
+  height: 50px;
+   position: fixed;
+   width: 1200px;
+   text-align: center;
+   justify-content: center;
+   align-self: center;
+   bottom: 0;
+   background-color: white;
+}
+.underline{
+	text-decoration: underline;
+}
