@@ -38,7 +38,7 @@ html, body {
 }
 .nav-link{
   font-family: orbitron-medium;
-  font-size: 24px;
+  font-size: 1vw;
   color: #4E09AE;
   border-right-style: solid;
   border-bottom-color: white;
@@ -55,7 +55,7 @@ html, body {
 h1{
   font-family: orbitron-bold;
   padding-top: 20px;
-  padding-bottom: 6vw;
+  padding-bottom: 4vw;
  
 }
 a{
@@ -168,4 +168,7 @@ code {
 }
 .active{
   text-decoration:underline;
+}
+img {
+  max-width: 100%;
 }
