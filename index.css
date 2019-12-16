@@ -27,6 +27,7 @@ body {
 }
 @media only screen and (max-width: 600px) {
     .main-menu{display: none;}
+    .mobile-menu{display: none;}
 }
 @media only screen and (min-width: 600px) {
     .mobile-menu{display: none;}
@@ -39,27 +40,38 @@ html, body {
   font-family: orbitron-medium;
   font-size: 24px;
   color: #4E09AE;
+  border-right-style: solid;
+  border-bottom-color: white;
+
+}
+.nav-link:hover{
+  text-decoration: underline;
+}
+.navbar-brand{
+  text-align: center;
+  float: center;
+  justify-content: center;
 }
 h1{
   font-family: orbitron-bold;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 6vw;
  
 }
 a{
-  font-family: Latha;
-  font-size: 20px;
-  color: black;
+  font-family: orbitron-medium;
+  font-size: 2.5vw;
+  color:#4E09AE;
 }
 h5{
-  font-family: orbitron-light;
+  font-family: orbitron-bold;
   color: #4E09AE;
-  font-size: 24px;
+  font-size: 2vw;
 }
 p{
   padding-top: 10px;
   font-family: Latha;
-  font-size: 18px;
+  font-size: 1.5vw;
 }
 }
 code {
@@ -67,7 +79,7 @@ code {
     monospace;
 }
 .row{
-  padding-top: 20px;
+  padding-top: 0;
 }
 .aler{
   background-color: #870676;
@@ -102,6 +114,8 @@ code {
 	justify-content: center;
 	text-align: center;
 	align-self: center;
+  float: center
+  margin:auto;
 }
 .padup{
 	padding-top: 20px;
@@ -114,6 +128,9 @@ code {
 	box-shadow: 10px;
 	border-width: 15px;
 
+}
+.card{
+  border-radius: 0;
 }
 .card:hover{
 	animation: ease-in-out;
