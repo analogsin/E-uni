@@ -28,6 +28,7 @@ body {
 @media only screen and (max-width: 600px) {
     .main-menu{display: none;}
     .mobile-menu{display: none;}
+    .form-inlline{display: block;}
 }
 @media only screen and (min-width: 600px) {
     .mobile-menu{display: none;}
@@ -71,7 +72,7 @@ a{
 h5{
   font-family: orbitron-bold;
   color: #4E09AE ;
-  font-size: 0.7em;
+  font-size: 15px;
   text-align: center;
 }
 p{
@@ -136,7 +137,8 @@ code {
 
 }
 .card{
-  border-radius: 0;
+  border-radius: 10px;
+  display: block;
 }
 .card:hover{
 	animation: ease-in-out;
